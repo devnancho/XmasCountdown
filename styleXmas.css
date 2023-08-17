@@ -1,0 +1,54 @@
+import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Monsieur+La+Doulaise&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(xmasBG.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #5a1717;
+
+}
+
+h1 {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 5rem;
+    margin-top: 80px;
+}
+
+.countdown {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.textUnder {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+
+}
+
+/* To center text under the numbers */
+.divsCount {
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgb(170, 158, 158);
+    border-radius: 5px;
+    /* backdrop-filter: blur (20px); */
+
+}
+
+/* Targetting the span text */
+span {
+    font-size: 1rem;
+    text-align: center;
+
+
+}
